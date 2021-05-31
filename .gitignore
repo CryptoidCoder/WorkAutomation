@@ -15,4 +15,7 @@ commit.txt
 #Virtual Environments
 #venv
 
+#Temporary Files
+.temp
+
 #Specific to this project

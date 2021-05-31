@@ -1,0 +1,10 @@
+#Passes/Keys
+.env
+
+#Logs/Other Stuff
+.log
+
+#commits
+commit.txt
+
+#Specific to this project
