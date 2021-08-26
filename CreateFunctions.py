@@ -155,6 +155,7 @@ def addfiles():
         os.system('venv\Scripts\pip.exe freeze >> requirements.txt') #make a requirements.txt using the venv pip
         addnewline('TODO','Need to un # venv in .gitignore if you want to upload the virtual environment to github')
         copy_tree(Python_Model_Path, targetdir) #move the model files into the new dir
+        os.mkdir("Links") # add afolder ot put links into (instead of having thousands open in chrome)
 
     #elif language == 'heroku':
         #os.chdir(targetdir) #move to the new directory
